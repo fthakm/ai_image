@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Images</title>
+</head>
+<body>
+    <h1>Upload Male and Female Images</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="male" accept="image/*" required>
+        <input type="file" name="female" accept="image/*" required>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
